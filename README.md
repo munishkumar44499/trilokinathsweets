@@ -1,6 +1,6 @@
 # trilokinathsweets
 
-trilokinath sweets
+trilokinath sweets  flutter app
 
 ## Getting Started
 
