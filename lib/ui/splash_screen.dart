@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trilokinathsweets/common/colors.dart';
-import 'package:trilokinathsweets/ui/signup_screen.dart';
+
+import 'home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   @override
@@ -12,7 +13,7 @@ class SplashScreen extends StatelessWidget {
           onTap: () {
             print("on tap");
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => SignupScreen()));
+                MaterialPageRoute(builder: (context) => HomeScreen()));
           },
           child: Center(child: Image.asset("images/trilokinath_logo.png")),
         ),
